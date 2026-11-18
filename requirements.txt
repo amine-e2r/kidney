@@ -1,0 +1,13 @@
+# Keep Colab's preinstalled compatible torch/torchvision pair when already present.
+# Python 3.11 or 3.12 recommended. For local CUDA use the PyTorch install selector first.
+torch>=2.2,<3
+torchvision>=0.17,<1
+numpy>=1.26,<3
+pandas>=2.1,<4
+Pillow>=10,<13
+matplotlib>=3.8,<4
+scikit-learn>=1.4,<2
+jupyterlab>=4,<5
+ipykernel>=6,<8
+nbformat>=5.9,<6
+kaggle>=1.7,<3
